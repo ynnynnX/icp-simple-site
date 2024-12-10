@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info li {
+    list-style-type: none;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.left-container {
+    margin: 10rem;
+}
+
+.right-container {
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+
+.small-size {
+    font-size: 1.1rem;
+}
+
+.big-size {
+    font-size: 2rem;
+}
